@@ -1,10 +1,11 @@
 import React from 'react';
+import { WorkContainer, Title } from './styles/WorkStyle';
 
 const Work = () => {
   return (
-    <div>
-      <h1>Work</h1>
-    </div>
+    <WorkContainer>
+      <Title>Work</Title>
+    </WorkContainer>
   )
 }
 

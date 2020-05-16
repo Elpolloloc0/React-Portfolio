@@ -1,20 +1,21 @@
 import styled from "styled-components";
 
-export const NavContainer  = styled.div`
+export const NavContainer = styled.div`
   display: flex;
+  flex: 2;
+  height: 100%;
   align-items: center;
   justify-content: space-evenly;  
-  width: 100%;
   color: white;
 `;
 
 export const NavLink = styled.span`
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
 
   &:hover {
-    color: lawngreen;
+    color: grey;
   }
 
   &.nav-active {

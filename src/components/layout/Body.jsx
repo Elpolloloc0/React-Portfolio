@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import { BodyContainer } from './styles/BodyStyle';
 import { PageContext  } from "../../context/PageContext";
 import About from "../about/About";
@@ -20,7 +20,7 @@ const Body = () => {
 
   return (
     <BodyContainer>
-      {renderPage()}
+        {renderPage()}
     </BodyContainer>
   )
 }

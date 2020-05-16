@@ -1,10 +1,11 @@
 import React from 'react';
+import { EducationContainer, Title } from './styles/EducationStyle';
 
 const Education = () => {
   return (
-    <div>
-      <h1>Education</h1>
-    </div>
+    <EducationContainer>
+      <Title>Education</Title>
+    </EducationContainer>
   )
 }
 
