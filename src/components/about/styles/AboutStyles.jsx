@@ -4,8 +4,8 @@ export const AboutContainer = styled.div`
   display: flex;
   flex: 8;
   flex-direction: column;
-  background-color: #FFDBAC;
-  border: 1rem solid red;
+  /* background-color: #FFDBAC; */
+  /* border: 1rem solid red; */
   padding-left: 5rem;
   padding-right: 5rem;
 `;

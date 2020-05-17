@@ -38,5 +38,5 @@ export const BodyArea = styled.div`
   position: absolute;
   display: flex;
   width: 100%;
-  height: 85%;
+  height: 84%;
 `;

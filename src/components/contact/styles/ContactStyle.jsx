@@ -4,8 +4,8 @@ export const ContactContainer = styled.div`
   display: flex;
   flex: 8;
   flex-direction: column;
-  background-color: #a73a3a;
-  border: 1rem solid blue;
+  /* background-color: #a73a3a;
+  border: 1rem solid blue; */
   padding-left: 5rem;
   padding-right: 5rem;
 `;
