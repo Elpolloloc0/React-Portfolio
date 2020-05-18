@@ -4,20 +4,24 @@ import {
   SchoolDetailsContainer,
   SchoolImage,
   SchoolName,
+  SchoolCourse,
   SchoolYear,
-  SchoolInfoButton
+  SchoolDetails
 } from './styles/SchoolStyle';
 
-const School = ({ name, image, years, location, setState}) => {
+const School = ({ info }) => {
+  
+  const { theme, name, image, course, years, details } = info;
 
   return (
-    <SchoolContainer>
+    <SchoolContainer className={`${theme}`}>
       <SchoolImage src={`${image}`} alt={name} />
       <SchoolDetailsContainer>
         <SchoolName>{name}</SchoolName>
+        <SchoolCourse>{course}</SchoolCourse>
         <SchoolYear>{years}</SchoolYear>
+        <SchoolDetails>{details}</SchoolDetails>
       </SchoolDetailsContainer>
-      <SchoolInfoButton onClick={() => setState(location)}>Info</SchoolInfoButton>
     </SchoolContainer>
   )
 }

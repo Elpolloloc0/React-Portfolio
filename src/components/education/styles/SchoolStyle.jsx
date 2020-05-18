@@ -3,7 +3,23 @@ import styled from "styled-components";
 export const SchoolContainer = styled.div`
   display: flex;
   align-items: center;
-  height: 10rem;
+  height: fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+
+  &.mentor {
+    background-color: #1f2833;
+    color: white;
+  }
+  &.warrington {
+    background-color: #C5c6c7;
+    color: black;
+  }
+  &.liverpool {
+    background-color: #272727;
+    color: white;
+  }
 `
 
 export const SchoolDetailsContainer = styled.div`
@@ -11,29 +27,29 @@ export const SchoolDetailsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-left: 5rem;
-  width: 20vw;
+  margin-right: 5rem;
+  width: 100%;
 `;
 
 export const SchoolImage = styled.img`
-  width: 10rem;
+  width: 50rem;
 `
 
 export const SchoolName = styled.h2`
-  text-decoration: underline;
-`;
-
-export const SchoolYear = styled.span`
-  font-style: italic;
+  font-size: 3rem;
+`
+export const SchoolCourse = styled.h3`
+  margin-top: -1.5rem;
+  font-size: 1.5rem;
 `
 
-export const SchoolInfoButton = styled.button`
-  margin-left: 5rem;
-  background-color: darkgrey;
-  color: white;
-  border: 0.02rem solid darkgrey;
-  height: 3rem;
-  width: 10rem;
-  border-radius: 0.3rem;
+export const SchoolYear = styled.h3`
+  margin-top: -1rem;
+  font-style: italic;
   font-size: 1.5rem;
-  cursor: pointer;
+`
+
+export const SchoolDetails = styled.span`
+  font-size: 1.25rem;
+  text-align: center;
 `
