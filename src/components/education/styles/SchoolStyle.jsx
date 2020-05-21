@@ -4,8 +4,8 @@ export const SchoolContainer = styled.div`
   display: flex;
   align-items: center;
   height: fit-content;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   padding-left: 5rem;
 
   &.mentor {
@@ -15,6 +15,8 @@ export const SchoolContainer = styled.div`
   &.warrington {
     background-color: #C5c6c7;
     color: black;
+    padding-left: 0;
+    padding-right: 5rem;
   }
   &.liverpool {
     background-color: #272727;
@@ -33,6 +35,8 @@ export const SchoolDetailsContainer = styled.div`
 
 export const SchoolImage = styled.img`
   width: 50rem;
+  height: 20rem;
+  border: 3px solid #45a29e;
 `
 
 export const SchoolName = styled.h2`

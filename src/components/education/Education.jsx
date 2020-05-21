@@ -1,9 +1,6 @@
 import React from 'react';
-import { 
-  EducationContainer, 
-  Title,
-  SchoolsContainer
-} from './styles/EducationStyle';
+import { AreaContainer, AreaTitle } from '../layout/styles/BodyStyle';
+import { SchoolsContainer } from './styles/EducationStyle';
 import School from './School';
 import { 
   MentorObject,
@@ -13,14 +10,14 @@ import {
 
 const Education = () => {
   return (
-    <EducationContainer>
-      <Title>Education</Title>
+    <AreaContainer>
+      <AreaTitle>Education</AreaTitle>
       <SchoolsContainer>
-        <School info={MentorObject} />
-        <School info={WarringtonObject} />
-        <School info={LiverpoolObject} />
+        <School info={MentorObject} direction="left" />
+        <School info={WarringtonObject} direction="right" />
+        <School info={LiverpoolObject} direction="left" />
       </SchoolsContainer>
-    </EducationContainer>
+    </AreaContainer>
   )
 }
 

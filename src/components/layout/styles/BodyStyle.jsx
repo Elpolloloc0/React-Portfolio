@@ -39,4 +39,22 @@ export const BodyArea = styled.div`
   display: flex;
   width: 100%;
   height: 84.2%;
+
+  overflow-y: auto;
+  background-color: #0b0c10;
+  color: #45a29e;
+
+  scrollbar-color: #45a29e #0b0c10;
+  scrollbar-width: thin;
 `;
+
+export const AreaContainer = styled.div`
+  display: flex;
+  flex: 8;
+  flex-direction: column;
+`
+
+export const AreaTitle = styled.h1`
+  font-size: 5rem;
+  margin-left: 5rem;
+`

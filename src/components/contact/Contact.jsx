@@ -1,11 +1,11 @@
 import React from 'react';
-import { ContactContainer, Title } from './styles/ContactStyle';
+import { AreaContainer, AreaTitle } from '../layout/styles/BodyStyle';
 
 const Contact = () => {
   return (
-    <ContactContainer>
-      <Title>Contact</Title>
-    </ContactContainer>
+    <AreaContainer>
+      <AreaTitle>Contact</AreaTitle>
+    </AreaContainer>
   )
 }
 

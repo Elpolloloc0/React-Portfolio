@@ -1,11 +1,11 @@
 import React from 'react';
-import { WorkContainer, Title } from './styles/WorkStyle';
+import { AreaContainer, AreaTitle } from '../layout/styles/BodyStyle';
 
 const Work = () => {
   return (
-    <WorkContainer>
-      <Title>Work</Title>
-    </WorkContainer>
+    <AreaContainer>
+      <AreaTitle>Work</AreaTitle>
+    </AreaContainer>
   )
 }
 
