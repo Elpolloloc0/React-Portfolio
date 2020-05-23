@@ -22,7 +22,7 @@ export const SchoolContainer = styled.div`
     background-color: #272727;
     color: white;
   }
-`
+`;
 
 export const SchoolDetailsContainer = styled.div`
   display: flex;
@@ -35,13 +35,14 @@ export const SchoolDetailsContainer = styled.div`
 
 export const SchoolImage = styled.img`
   width: 50rem;
-  height: 20rem;
+  // height: 20rem;
   border: 3px solid #45a29e;
 `
 
 export const SchoolName = styled.h2`
   font-size: 3rem;
-`
+`;
+
 export const SchoolCourse = styled.h3`
   margin-top: -1.5rem;
   font-size: 1.5rem;

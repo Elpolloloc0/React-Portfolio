@@ -6,7 +6,7 @@ import Footer from './components/layout/Footer';
 import { PageContext } from './context/PageContext';
 
 const App = () => {
-  const [page, setPage] = useState("Education");
+  const [page, setPage] = useState("Contact");
 
   return (
     <PageContext.Provider  value={{page, setPage}}>

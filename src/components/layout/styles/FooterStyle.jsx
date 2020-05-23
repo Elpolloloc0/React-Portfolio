@@ -3,5 +3,5 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   display: flex;
   flex: 0.5;
-  background-color: #0b0c10;
+  background-color: black;
 `;
